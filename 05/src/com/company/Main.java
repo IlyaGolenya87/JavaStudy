@@ -58,6 +58,7 @@ public class Main {
     }
 
     public static void test (Animal a){
+
         a.color = "red";
     }
 
