@@ -24,7 +24,8 @@ public abstract class CoffeeMachine implements CoffeeMachineImpl {
         }else {
             coffee -= 11.0;
             water -= 0.25;
-            System.out.println("Your coffee is ready");
+            System.out.println("Your americano is ready");
+            System.out.println("Take the glass with coffee");
         }
     }
 
@@ -39,7 +40,8 @@ public abstract class CoffeeMachine implements CoffeeMachineImpl {
         }else {
             coffee -= 7.0;
             water -= 0.035;
-            System.out.println("Your coffee is ready");
+            System.out.println("Your espresso is ready");
+            System.out.println("Take the glass with coffee");
         }
     }
 
@@ -54,18 +56,27 @@ public abstract class CoffeeMachine implements CoffeeMachineImpl {
         }else {
             coffee -= 14.0;
             water -= 0.07;
-            System.out.println("Your coffee is ready");
+            System.out.println("Your double espresso is ready");
+            System.out.println("Take the glass with coffee");
         }
     }
 
     public void pourWater(){
-        water = fullWater;
-        System.out.println("The container of water is full");
+        if (water == fullWater){
+            System.out.println("The container with water is already full");
+        }else {
+            water = fullWater;
+            System.out.println("The container with water is filled successfully");
+        }
     }
 
-    public void pourCofee(){
-        coffee = fullCoffee;
-        System.out.println("The container of coffee is full");
+    public void pourCofee() {
+        if (coffee == fullCoffee) {
+            System.out.println("The container with coffee is already full");
+        } else {
+            coffee = fullCoffee;
+            System.out.println("The container with coffee is filled successfully");
+        }
     }
 
     public void info (){

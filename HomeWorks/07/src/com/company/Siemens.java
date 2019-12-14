@@ -2,7 +2,6 @@ package com.company;
 
 public class Siemens extends CoffeeMachine {
 
-
     public Siemens (){
         brand = "Siemens";
         fullCoffee = 300.0f;

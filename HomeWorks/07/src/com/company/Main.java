@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
         CoffeeMachine coffeeMachine = null;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Choose the brand of machine");
+
+        System.out.println("Choose the brand of machine (enter the number)");
         System.out.println("1. Bosh");
         System.out.println("2. Siemens");
         System.out.println("3. Vitek");
@@ -33,14 +34,14 @@ public class Main {
             while (true) {      // Главное меню
 
                 System.out.println("Main menu");
-                System.out.println("1. Show current volume of water and coffee");
-                System.out.println("2. Make Americano");
-                System.out.println("3. Make Espresso");
-                System.out.println("4. Make Double Espresso");
-                System.out.println("5. To fill the container of water");
-                System.out.println("6. To fill the container of coffee");
-                System.out.println("7. Information");
-                System.out.println("8. Turn off the coffee machine");
+                System.out.println("1. To show current volume of water and coffee");
+                System.out.println("2. To make Americano");
+                System.out.println("3. To make Espresso");
+                System.out.println("4. To make Double Espresso");
+                System.out.println("5. To fill the container with water");
+                System.out.println("6. To fill the container with coffee");
+                System.out.println("7. To show information");
+                System.out.println("8. Shutdown");
 
                 int menu = sc.nextInt();
 
@@ -82,7 +83,8 @@ public class Main {
             }
 
         }
-        System.out.println("Enter correct number ");
+        System.out.println("You entered the incorrect number ");
+
     }
 }
 
