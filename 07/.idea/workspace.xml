@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f21c85d0-48bd-46a3-afe3-ad463af7f280" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
+=======
+    <list default="true" id="f21c85d0-48bd-46a3-afe3-ad463af7f280" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/CoffeeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/CoffeeMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/CoffeeMachineImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/CoffeeMachineImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/Siemens.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/Siemens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/CoffeeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/Siemens.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/Siemens.java" afterDir="false" />
+    </list>
+>>>>>>> b4b8ca3b8c15b239660933ae1b0e9b2106928fea
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
+=======
+>>>>>>> b4b8ca3b8c15b239660933ae1b0e9b2106928fea
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -23,15 +40,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/company/BankomatImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Bancomat.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -40,46 +48,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="318" />
-    <option name="y" value="164" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
+  <component name="ProjectId" id="1UySvua8DEU2nMfDi20AkuqFLQI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="07" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="07" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="07" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,6 +96,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
@@ -210,5 +184,17 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> b4b8ca3b8c15b239660933ae1b0e9b2106928fea
   </component>
 </project>

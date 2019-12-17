@@ -31,7 +31,7 @@ public class Main {
         System.out.println("");
 
         //Test Case 5
-        int [] array = {17};
+        int [] array = {17,18,4,0,28};
         System.out.println("TestCase 5");
         System.out.println(isSorted(array));
         System.out.println("");
