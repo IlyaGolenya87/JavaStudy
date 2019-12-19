@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21c85d0-48bd-46a3-afe3-ad463af7f280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../04/GK__Java_urok_04_1502199291.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson07/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MKA_Java_Praktika_07_1558700311.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/07.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07/com/company/Bancomat$Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/out/production/07/com/company/Bancomat$Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07/com/company/Bancomat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/out/production/07/com/company/Bancomat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07/com/company/BankomatImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/out/production/07/com/company/BankomatImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/07/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/out/production/07/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Bancomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/src/com/company/Bancomat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BankomatImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/src/com/company/BankomatImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWorks/HWCoffeeMachine.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWCoffeeMachine.rar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +34,8 @@
   <component name="ProjectId" id="1UySvua8DEU2nMfDi20AkuqFLQI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HomeWorks/07" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

@@ -6,6 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int $ac = 1;
+
         //ИНТЕРФЕЙСЫ
         //Список свойств и методов, того или иного класса
 
