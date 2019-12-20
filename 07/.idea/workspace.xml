@@ -6,15 +6,26 @@
     <ignored path="$PROJECT_DIR$/out/" />
 =======
     <list default="true" id="f21c85d0-48bd-46a3-afe3-ad463af7f280" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../04/GK__Java_urok_04_1502199291.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson07/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MKA_Java_Praktika_07_1558700311.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/CoffeeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/CoffeeMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/CoffeeMachineImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/CoffeeMachineImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/Siemens.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/out/production/07/com/company/Siemens.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/CoffeeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/CoffeeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/Siemens.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/07/src/com/company/Siemens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/07.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07/com/company/Bancomat$Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/out/production/07/com/company/Bancomat$Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07/com/company/Bancomat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/out/production/07/com/company/Bancomat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07/com/company/BankomatImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/out/production/07/com/company/BankomatImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/07/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/out/production/07/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Bancomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/src/com/company/Bancomat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/BankomatImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/src/com/company/BankomatImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson07/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWCoffeeMachine.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWCoffeeMachine.rar" afterDir="false" />
     </list>
 >>>>>>> b4b8ca3b8c15b239660933ae1b0e9b2106928fea
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +62,6 @@
   <component name="ProjectId" id="1UySvua8DEU2nMfDi20AkuqFLQI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -190,7 +200,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
