@@ -28,13 +28,11 @@ public class LinkedList {
             if (index > count || index <= 0) {
                 throw new Exception("Error. The specified index doesn't exist. ");
             }
-            int i = 1;
-            while (current != null) {
+            for (int i = 1; i <= count; i++) {
                 if (i == index) {
                     break;
                 }
                 current = current.nextIndex;
-                i++;
             }
 
         } catch (Exception e) {
@@ -51,22 +49,19 @@ public class LinkedList {
             if (index > count || index <= 0) {
                 throw new Exception("Error. The specified index doesn't exist. ");
             }
-
-            int i = 1;
-            if (i == index) {
+            if (index == 1) {
                 first = first.nextIndex;
                 return;
             }
-            while (current != null) {
+            //while (current != null) {
+            for (int i = 1; i <= count; i++) {
                 if (i == index - 1) {
                     current.nextIndex = current.nextIndex.nextIndex;
                     count -= 1;
                     break;
                 }
                 current = current.nextIndex;
-                i++;
             }
-
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -83,10 +78,8 @@ public class LinkedList {
         System.out.println("");
     }
 
-
     private class Element {
         int value;
-
         Element nextIndex;
 
         Element(int value) {
