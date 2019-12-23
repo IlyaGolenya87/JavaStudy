@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb4daca-b9df-46d4-bd6b-5e8e6352ada3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWCoffeeMachine.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWCoffeeMachine.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/src/com/company/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/src/com/company/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MKA_Java_Praktika_06_1558699947.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +95,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
