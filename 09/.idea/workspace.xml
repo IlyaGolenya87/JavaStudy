@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8ff824-3c7f-44df-ab72-a4c598452209" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/out/production/HWLinkedList/com/company/LinkedList$Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/out/production/HWLinkedList/com/company/LinkedList$Element.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/out/production/HWLinkedList/com/company/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/out/production/HWLinkedList/com/company/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/out/production/HWLinkedList/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/out/production/HWLinkedList/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/src/com/company/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/src/com/company/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
