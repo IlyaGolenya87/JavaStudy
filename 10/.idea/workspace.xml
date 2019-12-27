@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87cca2ff-3525-4bdc-937f-7306ef991fd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../04/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/HWLinkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/java4_1576864800.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/out/production/HWLinkedList/com/company/LinkedList$Element.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/out/production/HWLinkedList/com/company/LinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/out/production/HWLinkedList/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/src/com/company/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/09/HWLinkedList/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05/MKA_Java_Praktika_06_1558699947.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../06/MKA_Java_Praktika_06_1558699947.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/.idea/07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../04/.idea/04.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../07/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../07/07.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/out/production/07/com/company/Bancomat$Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/../07/out/production/07/com/company/Bancomat$Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/out/production/07/com/company/Bancomat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../07/out/production/07/com/company/Bancomat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/out/production/07/com/company/BankomatImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../07/out/production/07/com/company/BankomatImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/out/production/07/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../07/out/production/07/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/src/com/company/Bancomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07/src/com/company/Bancomat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/src/com/company/BankomatImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07/src/com/company/BankomatImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07/Lesson07/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08/out/production/08/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../08/out/production/08/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="87cca2ff-3525-4bdc-937f-7306ef991fd7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+            <state relative-caret-position="353">
+              <caret line="112" column="29" lean-forward="true" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -70,7 +29,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -83,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -97,8 +56,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/1.txt" />
+        <option value="$PROJECT_DIR$/input.txt" />
       </list>
     </option>
   </component>
@@ -147,6 +106,9 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,15 +161,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -237,27 +199,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
+    <entry file="file://$PROJECT_DIR$/1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.txt">
+    <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="112" column="29" lean-forward="true" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
         </state>
       </provider>
     </entry>

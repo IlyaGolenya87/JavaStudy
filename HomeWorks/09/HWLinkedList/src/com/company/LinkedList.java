@@ -24,6 +24,7 @@ public class LinkedList {
     public int get(int index) throws Exception {
         Element current = first;
 
+        //
         if (index > count || index <= 0) {
             throw new Exception("Error. The specified index doesn't exist. ");
         }
@@ -39,8 +40,8 @@ public class LinkedList {
 
     public void remove(int index) throws Exception {
         Element current = first;
-        //Генерация исключения по аналогу с методом get
 
+        //Генерация исключения по аналогу с методом get
         if (index > count || index <= 0) {
             throw new Exception("Error. The specified index doesn't exist. ");
         }
