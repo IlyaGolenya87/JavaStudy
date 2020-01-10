@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -39,6 +41,40 @@ public class Main {
         System.out.println(str.substring(1, 5)); //Выделяет подстроку в строке по начальному и конечному символу
         System.out.println(str.toLowerCase()); //Приводит все к нижнему регистру
         System.out.println(str.toUpperCase()); //Приводит все к верхнему регистру
+
+
+        //Форматирование строк
+        /*Флаги форматирования:
+        %s - строка;
+        %d - целое число (int, long и т.д)
+        %f - вещественное число
+        %b - boolean
+        %c - символ (тип char)
+        %t - дата
+        %% - вывод символа %
+        \n - переход на новую строку
+        \t - символ табуляции
+        \b - удаляет предыдущий символ
+        \\ - выводит символ '\'
+        * */
+
+        //Внутри флага после символа % можно указывать цифры, которые регулируют отступы или для вещественных чисел
+        //можно ограничить количество знаков после запятой
+        int age = 30;
+        Date date = new Date();
+        System.out.println(date);
+        String sFormat = String.format("\tМеня зовут %3s.\nМне %d лет. Мой рост %.2f см.\nЯ хочу знать Java на 100 %%. Сегодня %tc", "Вова", age, 182.1, date);
+
+        System.out.println(sFormat);
+
+        String sFormat2 = String.format("My love color %2$s. I like number %1$d",40,"red"); //цифра со знаком $ позволяет указывать конкретное значение флага, в порядке отличном от заданного
+        //также позволяет несколько раз использовать значение флага.
+
+        //Преобрвзование нестроковых объектов в строку
+
+        int a = 125;
+        String sa = String.valueOf(a);
+        System.out.println(sa);
 
 
 
