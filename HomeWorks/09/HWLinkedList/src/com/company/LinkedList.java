@@ -21,51 +21,44 @@ public class LinkedList {
         count++;
     }
 
-    public int get(int index) {
+    public int get(int index) throws Exception {
         Element current = first;
 
-        try {   //Генерация исключение в случае ввода несуществующего индекса
-            if (index > count || index <= 0) {
-                throw new Exception("Error. The specified index doesn't exist. ");
-            }
-            for (int i = 1; i <= count; i++) {
-                if (i == index) {
-                    break;
-                }
-                current = current.nextIndex;
-            }
-
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-            return 0; //Т.к. метод get должен возвращать int - не придумал ничего, кроме как возвращать 0 при вводе несуществующего индекса
+        //Генерация исключения по аналогу с методом get
+        if (index > count || index <= 0) {
+            throw new Exception("Error. The specified index doesn't exist. ");
         }
+        for (int i = 1; i <= count; i++) {
+            if (i == index) {
+                break;
+            }
+            current = current.nextIndex;
+        }
+
         return current.value;
     }
 
-    public void remove(int index) {
+    public void remove(int index) throws Exception {
         Element current = first;
-        //Генерация исключения по аналогу с методом get
-        try {
-            if (index > count || index <= 0) {
-                throw new Exception("Error. The specified index doesn't exist. ");
-            }
-            if (index == 1) {
-                first = first.nextIndex;
-                return;
-            }
-            //while (current != null) {
-            for (int i = 1; i <= count; i++) {
-                if (i == index - 1) {
-                    current.nextIndex = current.nextIndex.nextIndex;
-                    count -= 1;
-                    break;
-                }
-                current = current.nextIndex;
-            }
 
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
+        //Генерация исключения по аналогу с методом get
+        if (index > count || index <= 0) {
+            throw new Exception("Error. The specified index doesn't exist. ");
         }
+        if (index == 1) {
+            first = first.nextIndex;
+            return;
+        }
+
+        for (int i = 1; i <= count; i++) {
+            if (i == index - 1) {
+                current.nextIndex = current.nextIndex.nextIndex;
+                count -= 1;
+                break;
+            }
+            current = current.nextIndex;
+        }
+
     }
 
     public void print() {

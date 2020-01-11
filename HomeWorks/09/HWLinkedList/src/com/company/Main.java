@@ -15,14 +15,37 @@ public class Main {
 
         linkedList.print();
 
-        System.out.println(linkedList.get(10));
-        System.out.println(linkedList.get(4));
-        System.out.println(linkedList.get(2));
 
-        linkedList.remove(2);
+        try {
+            System.out.println(linkedList.get(10));
+        } catch (Exception e) {
+            e.getMessage();
+        }
+        try {
+            System.out.println(linkedList.get(4));
+        } catch (Exception e) {
+            e.getMessage();
+        }
+        try {
+            System.out.println(linkedList.get(2));
+        } catch (Exception e) {
+            e.getMessage();
+        }
+
+
+        try {
+            linkedList.remove(2);
+        } catch (Exception e) {
+            e.getMessage();
+        }
         linkedList.print();
 
-        linkedList.remove(-1);
+        try {
+            linkedList.remove(-1);
+        } catch (Exception e) {
+            e.getMessage();
+        }
+
         linkedList.print();
 
         linkedList.add(60);
