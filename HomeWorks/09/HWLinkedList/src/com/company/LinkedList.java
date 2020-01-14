@@ -24,7 +24,11 @@ public class LinkedList {
     public int get(int index) throws Exception {
         Element current = first;
 
+<<<<<<< HEAD
+        //Генерация исключения по аналогу с методом get
+=======
         //
+>>>>>>> e290dfd0d90a8937e9df968a15851e5d9a5058e5
         if (index > count || index <= 0) {
             throw new Exception("Error. The specified index doesn't exist. ");
         }
@@ -49,7 +53,7 @@ public class LinkedList {
             first = first.nextIndex;
             return;
         }
-        //while (current != null) {
+
         for (int i = 1; i <= count; i++) {
             if (i == index - 1) {
                 current.nextIndex = current.nextIndex.nextIndex;

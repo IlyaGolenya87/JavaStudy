@@ -9,7 +9,7 @@ public class Main {
         i = i / 0;
 */
 
-       int [] arr = new int[3];
+        int[] arr = new int[3];
 
         //У каждого вида исключения свое название
         //Любое исключение в Java является классом
@@ -17,17 +17,15 @@ public class Main {
         int index = 2;
 
         //Для того, чтобы отловить исключение:
-        try{
+        try {
             //Помещаем код, который потенциально МОЖЕТ (т.е. не факт) вызвать исключение.
-            arr [index] = 2;
-            index /=0;
+            arr[index] = 2;
+            index /= 0;
             System.out.println("test"); //весь код, который находится в блоке try после выражения, вызвавшего исключение работать не будет.
-        }
-        catch (ArrayIndexOutOfBoundsException e){  //В круглых скобках указыать тип исключения, которое потенциально может возникнуть
+        } catch (ArrayIndexOutOfBoundsException e) {  //В круглых скобках указыать тип исключения, которое потенциально может возникнуть
             e.printStackTrace(); //стандартный метод любого исключения, который выводит текст в консоль (стандартный)
             System.out.println("Something is wrong");
-        }
-        catch (ArithmeticException e){  //блоков catch может быть несколько
+        } catch (ArithmeticException e) {  //блоков catch может быть несколько
             e.printStackTrace();
             System.out.println("You try / on zero");
         }
@@ -41,8 +39,7 @@ public class Main {
             //throw генерирует исключения
             throw new MyException(); //после throw необходимо создать объект пользовательского исключения
 
-        }
-        catch (MyException e){
+        } catch (MyException e) {
             System.out.println(e.getMessage());
             System.out.println(e.timestamp);
         }
@@ -57,11 +54,9 @@ public class Main {
             test();
         } catch (MyException e) {
             System.out.println(e.getMessage());
-        }
-        catch (RuntimeException e){
+        } catch (RuntimeException e) {
 
-        }
-        catch (Exception e){
+        } catch (Exception e) {
 
         }
 
@@ -72,13 +67,14 @@ public class Main {
         game.start();
 
     }
-    public static void test  () throws MyException, RuntimeException{
+
+    public static void test() throws MyException, RuntimeException {
         getMoney(100);
     }
 
     //пример использования пользовательского исключения
-    public static void getMoney (int money) throws MyException, RuntimeException { // в сигнатуре метода необходимо писать throws и затем все исключения, которые могут быть и их необходимо обработать
-        if (money <= 0 || money >= 1000){                                          // обработку исключкений можно передавать вверх по иерархии методов, в нашем случае в метод test(), а затем в main
+    public static void getMoney(int money) throws MyException, RuntimeException { // в сигнатуре метода необходимо писать throws и затем все исключения, которые могут быть и их необходимо обработать
+        if (money <= 0 || money >= 1000) {                                          // обработку исключкений можно передавать вверх по иерархии методов, в нашем случае в метод test(), а затем в main
             throw new MyException();                                               // это делается для того, чтобы не обрабатывать исключения в каждом методе, а обработать один раз в первом по иерархии методе
         }
         System.out.println("Operation completed successfully");
