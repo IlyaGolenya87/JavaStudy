@@ -81,9 +81,9 @@ public class Main {
         SimpleDateFormat df = new SimpleDateFormat("'сегодня 'dd MMMM yyyy"); // в скобках передается паттерн, обозначающий вид представления даты (есть в интернете)
         //в одинарных кавычках можно вписывать любой текст вместе с паттерном даты
 
-        System.out.println(df.format(d2));
+        System.out.println(df.format(d2));*/
 
-        SimpleDateFormat df2 = new SimpleDateFormat("MM/dd/yyyy");
+        SimpleDateFormat df2 = new SimpleDateFormat("dd/MM/yyyy");
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите дату");
         String date = sc.nextLine();
@@ -93,11 +93,11 @@ public class Main {
             System.out.println(d3.getTime());
         } catch (ParseException e) {
             e.printStackTrace();
-        }*/
+        }
 
         //CALENDAR
 
-        GregorianCalendar calendar = new GregorianCalendar(); //по умолчанию при создании объекта ему присваивается начальное время (1,01,1970)
+       /* GregorianCalendar calendar = new GregorianCalendar(); //по умолчанию при создании объекта ему присваивается начальное время (1,01,1970)
 
         GregorianCalendar cal = (GregorianCalendar)GregorianCalendar.getInstance(); //так можно присвоить текущее время компьютера
 
@@ -113,7 +113,7 @@ public class Main {
 
         cal.roll(Calendar.DAY_OF_MONTH, 30); //метод добавляет к указанному параметру, но не меняя остальные параметры
 
-        cal.getTime(); //преобразовывает объект в формат даты
+        cal.getTime(); *///преобразовывает объект в формат даты
 
     }
 

@@ -15,8 +15,8 @@ public class Task {
         return date;
     }
 
-    public com.company.status getStatus() {
-        return status;
+    public String getStatus() {
+        return status.toString();
     }
 
     public void setDescription(String description) {
@@ -27,26 +27,38 @@ public class Task {
         this.date = date;
     }
 
+    public void setStatus(com.company.status status) {
+        this.status = status;
+    }
+
     public Task(String description, Date date) {
         this.description = description;
         this.date = date;
         status = com.company.status.UNCOMPLETED;
     }
-
-    public void editDescription(String newDescription){     //отредактировать описание
-        description = newDescription;
+    public Task ( Date date,String description, String status){
+        this.description = description;
+        this.date = date;
+        switch (status){
+            case "COMPLETED":
+                this.status = com.company.status.COMPLETED;
+                break;
+            case "UNCOMPLETED":
+                this.status = com.company.status.COMPLETED;
+                break;
+        }
     }
 
-    public void delTask(){ //удалить задачу, пока непонятно как реализовать
+    public void delTask() {//удалить задачу, пока непонятно как реализовать
 
     }
 
-    public void markCompleted(){
-        status = com.company.status.COMPLETED;
+    public void markCompleted() {
+        this.status = com.company.status.COMPLETED;
     }
 
-    public void markUnCompleted(){
-        status = com.company.status.UNCOMPLETED;
+    public void markUnCompleted() {
+        this.status = com.company.status.UNCOMPLETED;
     }
 
 }

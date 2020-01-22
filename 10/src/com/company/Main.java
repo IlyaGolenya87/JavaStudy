@@ -46,12 +46,12 @@ public class Main {
         ff.lastModified(); //Возвращает время в мс с момента когда файл был изменен*/
 
         //Работа с папкой
-        File dir = new File("C:\\Мульти-Пульти");
+       /* File dir = new File("C:\\Мульти-Пульти");
         String[] files = dir.list(); //возвращает массив строк, показывающих файлы и папки, содержащиеся по указанному пути (в т.ч. скрытые)
 
         for (int i = 0; i < files.length; i++) {
             System.out.println(files[i]);
-        }
+        }*/
 
         File dir2 = new File("D:\\test\\hello");
 
@@ -80,7 +80,7 @@ public class Main {
         }
 
         //Запись в файл
-        String еуче = "I rule the world!!!\nI am cool!!!)\nЯ крутой!!!";
+        String text = "I rule the world!!!\nI am cool!!!)\nЯ крутой!!!";
 
         try {
             FileWriter fw = new FileWriter("2.txt");
@@ -90,8 +90,8 @@ public class Main {
             e.printStackTrace();
         }
 
-        // Преобразование строки в число
 
+        // Преобразование строки в число
         try {
             FileReader fr2 = new FileReader("input.txt");
 
