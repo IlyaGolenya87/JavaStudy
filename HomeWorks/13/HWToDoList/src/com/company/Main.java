@@ -1,10 +1,7 @@
 package com.company;
 
-import java.io.File;
 import java.io.IOException;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -17,7 +14,7 @@ public class Main {
         try {
             toDoList.start();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Error of reading from file");
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -31,15 +28,17 @@ public class Main {
                 switch (choice) {
                     case 1:
                         toDoList.addTask();
+                        ToDoList.saveInFile();
                         break;
                     case 2:
                         toDoList.editTask();
+                        ToDoList.saveInFile();
                         break;
                     case 3:
                         toDoList.showList();
                         break;
                     case 4:
-                        toDoList.saveInFile();
+                        ToDoList.saveInFile();
                         return;
                     default:
                         System.out.println("Enter the number from 1 to 4 ");
@@ -52,11 +51,14 @@ public class Main {
                 scanner.nextLine();
                 //scanner.nextLine();
             } catch (ParseException e) {
-                System.out.println("You enter the incorrect date. Try again");
+                System.out.println("The entered date is incorrect. Try again");
                 System.out.println("");
             } catch (IOException e) {
-                System.out.println("Error writing to file");
-            }
-        }
+                System.out.println("Error of writing to file");
+            } /*catch(IndexOutOfBoundsException e) {
+            System.out.println("The entered index is incorrect. Try again");
+        }*/
+
     }
+}
 }

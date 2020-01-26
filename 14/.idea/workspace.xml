@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="312ea020-910a-40df-a803-c99d51b9ef34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/out/production/13/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../13/out/production/13/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../13/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoListImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
