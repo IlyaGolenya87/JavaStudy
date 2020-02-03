@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1616ee3-b35e-47bb-85cb-b4de6ab2d999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/TaskEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/SaveList.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/status.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoListImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="e1616ee3-b35e-47bb-85cb-b4de6ab2d999" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

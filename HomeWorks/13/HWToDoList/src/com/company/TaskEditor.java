@@ -1,30 +1,33 @@
 package com.company;
 
+import java.io.BufferedReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Scanner;
-
 import static com.company.ToDoList.mainList;
-import static com.company.ToDoList.saveInFile;
+
 
 public class TaskEditor {
-    Scanner scanner = new Scanner(System.in);
+    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
     private int changeTask;     //Переменная хранит номер задачи из списка на выбранную пользователем дату
 
-    public void showEditList(ArrayList<Task> editList, ArrayList<Integer> indexes) {
+    public int showEditList(ArrayList<Task> editList, ArrayList<Integer> indexes) throws IOException {
         if (editList.isEmpty()) {
-            System.out.println("There is no any tasks on this day\n");
+            System.out.println("There are no any tasks on this day\n");
+            return -1;
         } else {
             for (Task task : editList) {
-                System.out.printf("%d. ", editList.indexOf(task) + 1);
-                System.out.print(task.getDescription());
-                System.out.print(" Status - ");
-                System.out.println(task.getStatus());
+                TaskPrinter printer = new TaskPrinter();
+                System.out.print(editList.indexOf(task)+1);
+                System.out.print(". ");
+                printer.printTask(task);
             }
 
             while (true) {
                 System.out.println("Enter the number of task to edit it");      //Если на эту дату есть задачи - просим пользователя выбрать какую редактировать
-                changeTask = scanner.nextInt() - 1;
+                changeTask = Integer.parseInt(reader.readLine()) - 1;
                 if (changeTask > editList.size() - 1) {
                     System.out.println("Error. The entered index is incorrect. Try again");
                 }else {
@@ -32,13 +35,14 @@ public class TaskEditor {
                 }
             }
         }
+        return 0;
     }
 
     public void showMenu(ArrayList<Integer> indexes, ArrayList<Task> editList) throws IOException {
         while (true) {      //Вывод меню редактирования
             System.out.printf("%d. Change description\n%d. Delete\n%d. Mark as completed\n%d. Mark as uncompleted\n%d. Cancel\n", 1, 2, 3, 4, 5);
-            int changeAction = scanner.nextInt();
-            scanner.nextLine();
+            int changeAction = Integer.parseInt(reader.readLine());
+            //scanner.nextLine();
             switch (changeAction) {
                 case 1:
                     changeDescription(editList);
@@ -49,11 +53,11 @@ public class TaskEditor {
                     saveInFile();
                     return;
                 case 3:
-                    editList.get(changeTask).setStatus(Status.COMPLETED);
+                    editList.get(changeTask).markCompleted();
                     saveInFile();
                     break;
                 case 4:
-                    editList.get(changeTask).setStatus(Status.UNCOMPLETED);
+                    editList.get(changeTask).markUnCompleted();
                     saveInFile();
                     break;
                 case 5:
@@ -61,13 +65,12 @@ public class TaskEditor {
                 default:
                     System.out.println("Enter the correct number");
             }
-            //scanner.nextLine();
         }
     }
 
-    public void changeDescription(ArrayList<Task> editList) {
+    public void changeDescription(ArrayList<Task> editList) throws IOException {
         System.out.println("Enter the new description:");
-        String newDescription = scanner.nextLine();
+        String newDescription = reader.readLine();
         if (newDescription.equals(editList.get(changeTask).getDescription())) {
             System.out.println("The new description must be different!\n");
         } else {
@@ -76,13 +79,25 @@ public class TaskEditor {
 
     }
 
-    public void deleteTask(ArrayList<Integer> indexes) {
+    public void deleteTask(ArrayList<Integer> indexes) throws IOException {
         System.out.println("Do you really want to delete this task? (y/n)");
-        if (scanner.nextLine().equals("y") || scanner.nextLine().equals("Y")) {
+        if (reader.readLine().equals("y") || reader.readLine().equals("Y")) {
             int index = indexes.get(changeTask);    //Получение индекса, удаляемого элемента из коллекции indexes
             mainList.remove(index);
             System.out.println("The task was removed successfully\n");
         }
 
+    }
+    public void saveInFile() throws IOException {
+        FileWriter fileWriter = new FileWriter("SaveList.txt");
+        for (Task task : mainList) {
+            fileWriter.write(ToDoList.dateFormat.format(task.getDate()));
+            fileWriter.write((char) 174);   //разделитель
+            fileWriter.write(task.getDescription());
+            fileWriter.write((char) 174);   //разделитель
+            fileWriter.write(task.getStatus());
+            fileWriter.write((char) 174);
+        }
+        fileWriter.close();
     }
 }

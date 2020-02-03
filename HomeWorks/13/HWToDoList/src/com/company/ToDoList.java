@@ -6,10 +6,40 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class ToDoList implements ToDoListImpl {
-    Scanner scanner = new Scanner(System.in);
+    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     static SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
     static ArrayList<Task> mainList = new ArrayList<>();       //Коллекция, в которой будут храниться все задачи
-    Date todayDate = new Date();
+    static Date todayDate = new Date();
+    TaskEditor taskEditor = new TaskEditor();       //Редактор задач
+
+    public void mainMenu() throws IOException, ParseException {
+        System.out.println("Main menu:");
+        System.out.printf("%d. Add new task\n%d. Choose the task\n" +
+                "%d. Show to do list\n%d. Clear to do list\n%d. Complete the work\n", 1, 2, 3, 4, 5);
+        int choice = Integer.parseInt(reader.readLine());
+        switch (choice) {
+            case 1:
+                addTask();
+                taskEditor.saveInFile();
+                break;
+            case 2:
+                editTask();
+                break;
+            case 3:
+                showList();
+                break;
+            case 4:
+                clearList();
+                taskEditor.saveInFile();
+                break;
+            case 5:
+                taskEditor.saveInFile();
+                System.exit(0);
+            default:
+                System.out.println("Enter the number from 1 to 5\n");
+        }
+
+    }
 
     public void start() throws IOException, ParseException {
         File save = new File("SaveList.txt");
@@ -20,23 +50,22 @@ public class ToDoList implements ToDoListImpl {
                 loadFromFile();
             }
         } else {
-            //System.out.println("Нет файла");
             save.createNewFile();
         }
     }
 
     public void addTask() throws ParseException, IOException {
         System.out.println("Enter the date in the format day/month/year");
-        String userDate = scanner.nextLine();       //Принимаем пользовательскую дату
+        String userDate = reader.readLine();    //Принимаем пользовательскую дату
         String today = dateFormat.format(todayDate);
-        if (dateFormat.parse(userDate).before(dateFormat.parse(today))){
+        if (dateFormat.parse(userDate).before(dateFormat.parse(today))) {
             System.out.println("You cannot add a task with a past date\n");
             return;
         }
         String description = "";
         do {
             System.out.println("Enter the description of your task");
-            description = scanner.nextLine();
+            description = reader.readLine();
             if (description.equals("")) {
                 System.out.println("You cannot add a task without description\n");
             }
@@ -45,7 +74,7 @@ public class ToDoList implements ToDoListImpl {
         for (Task task : mainList) {     //Проверяем наличие ранее добавленных задач с таким же описанием
             if (task.getDate().equals(dateFormat.parse(userDate))) {
                 if (task.getDescription().equals(description)) {
-                    System.out.println("The task is already exists\n");
+                    System.out.println("The task already exists\n");
                     return;
                 }
             }
@@ -58,88 +87,59 @@ public class ToDoList implements ToDoListImpl {
         ArrayList<Task> editList = new ArrayList<>();   //Коллекция хранит задачи для редактирования на выбранную пользователем дату.
         ArrayList<Integer> indexes = new ArrayList<>();   //Коллекция хранит индексы элементов в коллекции MAIN_LIST, которые пользователь выбрал для редактирования
         System.out.println("Enter the date in the format day/month/year");
-        Date userDate = dateFormat.parse(scanner.nextLine());       //Принимаем пользовательскую дату
-        TaskEditor taskEditor = new TaskEditor();
+        Date userDate = dateFormat.parse(reader.readLine());       //Принимаем пользовательскую дату
         for (Task task : mainList) {     //При помощи цикла ищем задачи на дату, введенную пользователем и добавляем в колекцию для редактирования, а ее индекс в коллекцию индексов
             if (task.getDate().equals(userDate)) {
                 editList.add(task);
                 indexes.add(mainList.indexOf(task));
             }
         }
-        taskEditor.showEditList(editList, indexes);
-        taskEditor.showMenu(indexes, editList);
+        if (taskEditor.showEditList(editList, indexes) != -1) {
+            taskEditor.showMenu(indexes, editList);
+        }
     }
 
-    public void showList() throws ParseException {
+    public void showList() throws ParseException, IOException {
         if (mainList.isEmpty()) {
             System.out.println("The to do list is empty\n");
             return;
         }
+        TaskPrinter printer = new TaskPrinter();
         while (true) {
-            System.out.printf("%d. On today\n%d. On this week\n%d. On the specified date\n%d. Show full to do list\n" +
+            System.out.printf("%d. For today\n%d. For week\n%d. For the specified date\n%d. Show full to do list\n" +
                     "%d. Back\n", 1, 2, 3, 4, 5);
-            int changeAction = scanner.nextInt();
-            scanner.nextLine();
+            int changeAction = Integer.parseInt(reader.readLine());
             switch (changeAction) {
                 case 1:
-                    for (Task task : mainList) {
-                        if (dateFormat.format(task.getDate()).equals(dateFormat.format(todayDate))) {
-                            printTask(task);
-                        }
-                    }
+                    printer.printTodayTasks(mainList);
                     break;
                 case 2:
-                    Calendar calendar = Calendar.getInstance();
-                    calendar.add(Calendar.DAY_OF_MONTH, 7);
-                    Date plusWeek = calendar.getTime();
-                    for (Task task : mainList) {
-                        if (task.getDate().before(plusWeek)) {
-                            printTask(task);
-                        }
-                    }
+                    printer.printWeekTasks(mainList);
                     break;
                 case 3:
                     System.out.println("Enter the date in the format day/month/year");
-                    Date date = dateFormat.parse(scanner.nextLine());
-                    for (Task task : mainList) {     //При помощи цикла ищем задачи на дату, введенную пользователем
-                        if (task.getDate().equals(date)) {
-                            printTask(task);
-                        }
-                    }
+                    Date userDate = dateFormat.parse(reader.readLine());
+                    printer.printSpecificTasks(mainList, userDate);
                     break;
                 case 4:
-                    for (Task task : mainList) {
-                        printTask(task);
-                    }
+                    printer.printList(mainList);
                     break;
                 case 5:
                     return;
                 default:
-                    System.out.println("Enter the correct number\n");
+                    System.out.println("Enter the number from 1 to 5 \n");
             }
         }
     }
 
-    public void printTask (Task task) {
-        System.out.println(dateFormat.format(task.getDate()));
-        System.out.print(task.getDescription());
-        System.out.print("\nStatus - ");
-        System.out.println(task.getStatus());
-        System.out.println("");
-    }
-
-
-    public static void saveInFile() throws IOException {
-        FileWriter fileWriter = new FileWriter("SaveList.txt");
-        for (Task task : mainList) {
-            fileWriter.write(dateFormat.format(task.getDate()));
-            fileWriter.write((char) 174);   //разделитель
-            fileWriter.write(task.getDescription());
-            fileWriter.write((char) 174);   //разделитель
-            fileWriter.write(task.getStatus());
-            fileWriter.write((char) 174);
+    public void clearList() throws IOException {
+        System.out.println("Are you sure? (y/n)");
+        String answer = reader.readLine();
+        if (answer.equals("y") || answer.equals("Y")) {
+            mainList.clear();
+            System.out.println("The to do list has been cleared\n");
         }
-        fileWriter.close();
+
     }
 
     public void loadFromFile() throws IOException, ParseException {
@@ -157,11 +157,11 @@ public class ToDoList implements ToDoListImpl {
             Task task = new Task(dateFormat.parse(chunks[i]), chunks[i + 1], chunks[i + 2]);
             mainList.add(task);
         }
-        for (Task task: mainList){      //Проверка на наличие просроченных задач
+        for (Task task : mainList) {      //Проверка на наличие просроченных задач
             String status = task.getStatus();
             String taskDate = dateFormat.format(task.getDate());
             String today = dateFormat.format(todayDate);
-            if (status.equals("UNCOMPLETED") && dateFormat.parse(taskDate).before(dateFormat.parse(today))){
+            if (status.equals("UNCOMPLETED") && dateFormat.parse(taskDate).before(dateFormat.parse(today))) {
                 task.setStatus(Status.EXPIRED);
             }
         }
