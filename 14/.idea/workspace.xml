@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecb4daca-b9df-46d4-bd6b-5e8e6352ada3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Test.java" afterDir="false" />
+    <list default="true" id="312ea020-910a-40df-a803-c99d51b9ef34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/out/production/13/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../13/out/production/13/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../13/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoListImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +13,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,15 +26,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1UyaNBI8JjWEI73e0FmPUnLYeMw" />
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WZvEVbb7koeve9LE2RPqtpCqpG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,12 +54,15 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="05" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <module name="14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,22 +78,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ecb4daca-b9df-46d4-bd6b-5e8e6352ada3" name="Default Changelist" comment="" />
-      <created>1575646622794</created>
+      <changelist id="312ea020-910a-40df-a803-c99d51b9ef34" name="Default Changelist" comment="" />
+      <created>1579274552856</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575646622794</updated>
+      <updated>1579274552856</updated>
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -159,10 +148,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>14</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
