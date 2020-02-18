@@ -62,7 +62,9 @@ public class Main {
         Thread tt2 = new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < 100; i++){
+                for (int i = 0; i < 100;
+
+                     i++){
                     m.calc(-1);
                     m.calc2(-1, "B");
                 }
