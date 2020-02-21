@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HWToDoList:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HWToDoList_jar</output-path>
+    <root id="archive" name="HWToDoList.jar">
+      <element id="module-output" name="HWToDoList" />
+    </root>
+  </artifact>
+</component>
