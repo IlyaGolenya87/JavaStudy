@@ -1,0 +1,2 @@
+25.02.2020
+Разобраться с LinerLayout и RelativeLayuot Constraint 
