@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87cca2ff-3525-4bdc-937f-7306ef991fd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/10/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/10/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/out/production/13/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../13/out/production/13/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../13/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/status.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/com/company/ToDoListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,27 +38,21 @@
   </component>
   <component name="ProjectId" id="1WcVZsBEJNcAwjv4uwyA0r2Apqs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../11" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../J31019/HWTail" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="10" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="D:\Вова" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -106,5 +90,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583173054910">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1583173054910" />
+    <state x="531" y="257" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583172589201">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="531" y="257" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.738@0.0.1366.738" timestamp="1583172589201" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1583179008899">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583179008899" />
   </component>
 </project>

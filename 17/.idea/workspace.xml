@@ -7,21 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47996d1d-948c-4225-909a-e79fb32b3d72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/17_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/.idea/artifacts/HWToDoList_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/TaskEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/TaskEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/TaskPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/TaskPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/ToDoListImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/status.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/out/production/HWToDoList/com/company/status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/17/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/17/com/company/Main.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,28 +30,8 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-      </list>
-    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -64,73 +43,19 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="318" />
-    <option name="y" value="164" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
+  <component name="ProjectId" id="1YaD4bWEzNTKO4T9yEAGVlB9Ltk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="17" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="17" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="17" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="17" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="17_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="17" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -141,6 +66,12 @@
       <option name="PROGRAM_PARAMETERS" value="1 2 10 -5 49" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,60 +95,27 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="774" column="54" selection-start-line="774" selection-start-column="54" selection-end-line="774" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583171990038">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1583171990038" />
+    <state x="412" y="152" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583171971145">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="412" y="152" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1583171971145" />
+    <state x="531" y="257" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583171666013">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="531" y="257" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.738@0.0.1366.738" timestamp="1583171666013" />
+    <state x="530" y="127" key="FileChooserDialogImpl" timestamp="1583172376810">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="530" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583172376810" />
+    <state x="131" y="0" key="new project wizard" timestamp="1583172381678">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="131" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1583172381678" />
   </component>
   <component name="masterDetails">
     <states>
