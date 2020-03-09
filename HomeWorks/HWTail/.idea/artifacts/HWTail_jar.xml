@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="HWTail:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/HWTail_jar</output-path>
-    <root id="archive" name="HWTail.jar">
-      <element id="module-output" name="HWTail" />
-    </root>
-  </artifact>
-</component>

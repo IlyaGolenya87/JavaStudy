@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e14728f-2658-4e0d-93af-fde34b57e618" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6e14728f-2658-4e0d-93af-fde34b57e618" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/artifacts/HWTail_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/HWTail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/tail.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/artifacts/HWTail_jar/HWTail.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/META-INF/HWTail.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,25 +35,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1WLrMaVcDtOw1URdJlt43x3LFdU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">

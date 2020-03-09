@@ -20,7 +20,7 @@ public class MyClass {
 
     public void calc2(int d, String c) {
         System.out.print(c);
-        synchronized (this) {
+        synchronized (this) {       //синхронизация на уровне объекта
             this.value2 += d;
 
         }

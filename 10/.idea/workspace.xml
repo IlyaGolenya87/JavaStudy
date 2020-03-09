@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87cca2ff-3525-4bdc-937f-7306ef991fd7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/artifacts/HWTail_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/HWTail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/tail.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/artifacts/HWTail_jar/HWTail.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/META-INF/HWTail.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../J31019/HWTail" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -100,9 +104,15 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="531" y="257" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.738@0.0.1366.738" timestamp="1583172589201" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1583179008899">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1583356391633">
+      <screen x="0" y="0" width="1366" height="740" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583179008899" />
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583344795331" />
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.740@0.0.1366.740" timestamp="1583356391633" />
+    <state x="378" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1583776867655">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="378" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1583344660497" />
+    <state x="378" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.740@0.0.1366.740" timestamp="1583776867655" />
   </component>
 </project>
