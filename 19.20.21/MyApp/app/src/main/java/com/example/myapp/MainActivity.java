@@ -3,7 +3,9 @@ package com.example.myapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -21,6 +23,9 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+    private TextView errorMsg;
+    private TextView errorMsg1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         final EditText login = findViewById(R.id.login); //    вытаскиваем нужное текстовое поле по id
         final EditText password = findViewById(R.id.password);
         Button loginButton = findViewById(R.id.loginBtn); //вытаскиваем кнопку
-        final TextView errormsg = findViewById(R.id.errorMsg);
-        final TextView errormsg1 = findViewById(R.id.errorMsg1);
+        errorMsg = findViewById(R.id.errorMsg);
+        errorMsg1 = findViewById(R.id.errorMsg1);
         TextView signUpBtn = findViewById(R.id.signUpBtn);
         signUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,12 +55,12 @@ public class MainActivity extends AppCompatActivity {
                     errorPassword = "Заполните поле \"ПАРОЛЬ\"\n";
                 }
                 if (!errorPassword.equals("")) {
-                    errormsg1.setVisibility(View.VISIBLE);
-                    errormsg1.setText(errorPassword);
+                    errorMsg1.setVisibility(View.VISIBLE);
+                    errorMsg1.setText(errorPassword);
                 }
                 if (!errorlogin.equals("")) {
-                    errormsg.setVisibility(View.VISIBLE);
-                    errormsg.setText(errorlogin);
+                    errorMsg.setVisibility(View.VISIBLE);
+                    errorMsg.setText(errorlogin);
                 }
                 if (errorPassword.equals("") && errorlogin.equals("")) {
                     //showMenuActivity();
@@ -72,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                errormsg.setText("");
-                errormsg.setVisibility(View.INVISIBLE);
+                errorMsg.setText("");
+                errorMsg.setVisibility(View.INVISIBLE);
             }
 
             @Override
@@ -87,18 +92,15 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                errormsg1.setText("");
-                errormsg1.setVisibility(View.INVISIBLE);
+                errorMsg1.setText("");
+                errorMsg1.setVisibility(View.INVISIBLE);
             }
 
             @Override
             public void afterTextChanged(Editable s) {
             }
         });
-
-
     }
-
     public void loginUser(String email, String password) {
         final LoginRequest loginRequest = new LoginRequest();
         loginRequest.Email = email;
@@ -108,27 +110,44 @@ public class MainActivity extends AppCompatActivity {
                 .getApi()
                 .login(loginRequest)
                 .enqueue(new Callback<LoginResponse>() {       //здесь начинается работа с сервером
-            @Override
-            public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {        //сработает если все прошло хорошо
-                LoginResponse loginResponse = response.body();
-                if (!loginResponse.result){
-                    //TODO: обработка ошибки
+                    @Override
+                    public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {        //сработает если все прошло хорошо
+                        LoginResponse loginResponse = response.body();
+                        if (!loginResponse.result) {
+                            errorMsg.setVisibility(View.VISIBLE);
+                            errorMsg.setText(loginResponse.error);
 
+                            //TODO: СДЕЛАТЬ ЧТОБЫ ОШИБКА ВЫЛЕТАЛА ВО ВСПЛЫВАЮЩЕМ ОКНЕ
 
-                }else {
-                    //TODO: сохранить token в памяти устройства
-                    showMenuActivity();
-                }
+                        } else {
+                            //сохранить token в памяти устройства (в кэш приложения)
+                            //SharedPreferences - андроид при старте приложения уже создает объект данного класса.
+                            //Для того, чтобы его получить используем метод getDefaultSharedPreferences(MainActivity.this);
+                            //в скобках передается контекст - объект MainActivity (т.е. из какого активити запускается вызывается данный метод)
 
-            }
+                            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
 
-            @Override
-            public void onFailure(Call<LoginResponse> call, Throwable t) {      //сработает если произошла ошибка (если прервался запрос или ответ)
+                            SharedPreferences.Editor editor = preferences.edit();
+                            editor.putString("API_TOKEN", loginResponse.token);      // метод для записи в кэш (в виде коллекции Map) - ключ - значение
+                            editor.apply();     //сохраняет изменение, без него ничего не произойдет.
 
-                //TODO: обработка ошибки
+                            //Если необходимо получить что-либо из кэша нужно использовать метод
+                            //preferences.getString("API_TOKEN", "no such key"); (принимает ключ и значение по умолчанию, в случае если по ключу ничено не найдено - возвращает значение по умолчанию )
 
-            }
-        });
+                            //данный код универсален, можно использовать в других приложениях, если нужно использовать кэш
+
+                            showMenuActivity();
+
+                        }
+                    }
+                    @Override
+                    public void onFailure(Call<LoginResponse> call, Throwable t) {      //сработает если произошла ошибка (если прервался запрос или ответ)
+
+                        errorMsg.setVisibility(View.VISIBLE);
+                        errorMsg.setText(t.getMessage());
+
+                    }
+                });
 
     }
 

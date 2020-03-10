@@ -4,10 +4,24 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.net.DnsResolver;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.myapp.api.ApiService;
+import com.example.myapp.model.LoginRequest;
+import com.example.myapp.model.LoginResponse;
+import com.example.myapp.model.RegistrationRequest;
+import com.example.myapp.model.RegistrationResponse;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -49,7 +63,9 @@ public class RegisterActivity extends AppCompatActivity {
 
                 if (!error.equals("")) {        //если есть хоть одна ошибка, вызываем всплывающий диалог с этой ошибкой
                     showError(error);
+                    return;
                 }
+                registerUser(email.getText().toString(), name.getText().toString(), password.getText().toString());
             }
         });
     }
@@ -61,10 +77,44 @@ public class RegisterActivity extends AppCompatActivity {
         alert.setCancelable(true);      //задаем возможность скрыть диалог, нажатием на пустой экран
         alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {       //в диалоге создается кнопка, для закрытия диалога, передаем текст, которй буте на ней и слушателя
             @Override
-            public void onClick(DialogInterface dialog, int which) { }      //если оставить метод пустым, диалог просто исчезнет при нажатии кнопки
+            public void onClick(DialogInterface dialog, int which) {
+            }      //если оставить метод пустым, диалог просто исчезнет при нажатии кнопки
         });
         //alert.setIcon() //метод позволяет задать иконку для диалога
         alert.create().show();
 
+    }
+
+    public void registerUser(String email, String name, String password) {      //Метод, обеспечивающий регистрацию пользователя
+        final RegistrationRequest registrationRequest = new RegistrationRequest();
+        registrationRequest.email = email;
+        registrationRequest.name = name;
+        registrationRequest.password = password;
+
+        ApiService.getInstance()
+                .getApi()
+                .registration(registrationRequest)
+                .enqueue(new Callback<RegistrationResponse>() {
+                    @Override
+                    public void onResponse(Call<RegistrationResponse> call, Response<RegistrationResponse> response) {
+                        RegistrationResponse registrationResponse = response.body();
+                        if (!registrationResponse.result) {
+                            showError(registrationResponse.error);
+                        } else {
+                            showConfirmActivity();
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<RegistrationResponse> call, Throwable t) {
+                        showError(t.getMessage());
+
+                    }
+                });
+    }
+
+    public void showConfirmActivity() {
+        Intent i = new Intent(this, ConfirmActivity.class);
+        startActivity(i);
     }
 }

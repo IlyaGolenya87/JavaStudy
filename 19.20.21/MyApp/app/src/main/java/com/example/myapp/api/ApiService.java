@@ -31,7 +31,4 @@ public class ApiService {       //Класс будет предназначат
         return mRetrofit.create(MyFamily.class);
     }
 
-
-
-
 }
