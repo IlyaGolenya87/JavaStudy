@@ -33,7 +33,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         final EditText email = findViewById(R.id.email);
         final EditText name = findViewById(R.id.name);
-        final EditText password = findViewById(R.id.password);
+        final EditText password = findViewById(R.id.passwordRegister);
         final EditText confirmPassword = findViewById(R.id.confirmPassword);
 
 
@@ -55,7 +55,7 @@ public class RegisterActivity extends AppCompatActivity {
                     error += "Повторите ввод пароля\n";
                 }
 
-                if (!password.getText().toString().equals("") && confirmPassword.getText().toString().equals("")) {      //если оба пароля не пустые - сверяем их между собой
+                if (!password.getText().toString().equals("") && !confirmPassword.getText().toString().equals("")) {      //если оба пароля не пустые - сверяем их между собой
 
                     if (!password.getText().toString().equals(confirmPassword.getText().toString())) {
                         error += "Пароли должны совпадать";

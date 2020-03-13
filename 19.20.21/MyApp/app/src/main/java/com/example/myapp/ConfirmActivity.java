@@ -88,6 +88,12 @@ public class ConfirmActivity extends AppCompatActivity {
                             confirmResponse = response.body();
                         }
 
+                        if (!confirmResponse.result) {
+                            showError(confirmResponse.error);
+                        } else {
+                            showMenuActivity();
+                        }
+
                     }
 
                     @Override

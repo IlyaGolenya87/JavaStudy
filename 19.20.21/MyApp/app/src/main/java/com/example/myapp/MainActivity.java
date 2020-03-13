@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.myapp.api.APIBuilder;
 import com.example.myapp.api.ApiService;
 import com.example.myapp.model.LoginRequest;
 import com.example.myapp.model.LoginResponse;
@@ -102,12 +103,59 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void showError(String err) {
+        errorMsg.setVisibility(View.VISIBLE);
+
+    }
+
     public void loginUser(String email, String password) {
         final LoginRequest loginRequest = new LoginRequest();
         loginRequest.Email = email;
         loginRequest.Password = password;
 
-        ApiService.getInstance()
+        APIBuilder<LoginRequest, LoginResponse> builder = new APIBuilder<>();
+
+        builder.execute("login", loginRequest, new APIBuilder.onCallback<LoginResponse>() {
+            @Override
+            public void onResponce(LoginResponse loginResponse) {
+                if (!loginResponse.result) {
+                    showError(loginResponse.error);
+
+                    //TODO: СДЕЛАТЬ ЧТОБЫ ОШИБКА ВЫЛЕТАЛА ВО ВСПЛЫВАЮЩЕМ ОКНЕ
+
+                } else {
+                    //сохранить token в памяти устройства (в кэш приложения)
+                    //SharedPreferences - андроид при старте приложения уже создает объект данного класса.
+                    //Для того, чтобы его получить используем метод getDefaultSharedPreferences(MainActivity.this);
+                    //в скобках передается контекст - объект MainActivity (т.е. из какого активити запускается вызывается данный метод)
+
+                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
+
+                    SharedPreferences.Editor editor = preferences.edit();
+                    editor.putString("API_TOKEN", loginResponse.token);      // метод для записи в кэш (в виде коллекции Map) - ключ - значение
+                    editor.apply();     //сохраняет изменение, без него ничего не произойдет.
+
+                    //Если необходимо получить что-либо из кэша нужно использовать метод
+                    //preferences.getString("API_TOKEN", "no such key"); (принимает ключ и значение по умолчанию, в случае если по ключу ничено не найдено - возвращает значение по умолчанию )
+
+                    //данный код универсален, можно использовать в других приложениях, если нужно использовать кэш
+
+                    showMenuActivity();
+
+                }
+            }
+
+            @Override
+            public void onError(Exception e) {
+                showError(e.getMessage());
+
+            }
+        });
+
+
+
+        /*ApiService.getInstance()
                 .getApi()
                 .login(loginRequest)
                 .enqueue(new Callback<LoginResponse>() {       //здесь начинается работа с сервером
@@ -158,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
                         errorMsg.setText(t.getMessage());
 
                     }
-                });
+                });*/
 
     }
 
