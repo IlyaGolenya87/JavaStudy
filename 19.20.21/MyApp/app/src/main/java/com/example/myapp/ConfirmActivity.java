@@ -13,6 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapp.api.ApiService;
 import com.example.myapp.model.ConfirmRequest;
 import com.example.myapp.model.ConfirmResponse;
+import com.example.myapp.model.RegistrationResponse;
+import com.google.gson.Gson;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -70,11 +72,20 @@ public class ConfirmActivity extends AppCompatActivity {
 
                     @Override
                     public void onResponse(Call<ConfirmResponse> call, Response<ConfirmResponse> response) {
-                        ConfirmResponse confirmResponse = response.body();
+                        /*ConfirmResponse confirmResponse = response.body();
                         if (!confirmResponse.result) {
                             showError(confirmResponse.error);
                         } else {
                             showMenuActivity();
+                        }*/
+
+                        ConfirmResponse confirmResponse = null;
+                        if (!response.isSuccessful()){
+                            Gson g = new Gson();
+                            confirmResponse = g.fromJson(response.errorBody().charStream(), ConfirmResponse.class);
+
+                        }else {
+                            confirmResponse = response.body();
                         }
 
                     }

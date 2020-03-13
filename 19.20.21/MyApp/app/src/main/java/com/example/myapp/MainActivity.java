@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.example.myapp.api.ApiService;
 import com.example.myapp.model.LoginRequest;
 import com.example.myapp.model.LoginResponse;
+import com.google.gson.Gson;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -112,7 +113,17 @@ public class MainActivity extends AppCompatActivity {
                 .enqueue(new Callback<LoginResponse>() {       //здесь начинается работа с сервером
                     @Override
                     public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {        //сработает если все прошло хорошо
-                        LoginResponse loginResponse = response.body();
+                        LoginResponse loginResponse = null;
+
+                        if (!response.isSuccessful()){
+                            Gson g = new Gson();
+                            loginResponse = g.fromJson(response.errorBody().charStream(), LoginResponse.class);
+
+
+                        } else{
+                            loginResponse = response.body();
+                        }
+
                         if (!loginResponse.result) {
                             errorMsg.setVisibility(View.VISIBLE);
                             errorMsg.setText(loginResponse.error);

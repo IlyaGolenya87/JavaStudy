@@ -18,6 +18,7 @@ import com.example.myapp.model.LoginRequest;
 import com.example.myapp.model.LoginResponse;
 import com.example.myapp.model.RegistrationRequest;
 import com.example.myapp.model.RegistrationResponse;
+import com.google.gson.Gson;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -97,7 +98,15 @@ public class RegisterActivity extends AppCompatActivity {
                 .enqueue(new Callback<RegistrationResponse>() {
                     @Override
                     public void onResponse(Call<RegistrationResponse> call, Response<RegistrationResponse> response) {
-                        RegistrationResponse registrationResponse = response.body();
+                        RegistrationResponse registrationResponse = null;
+                        if (!response.isSuccessful()){
+                            Gson g = new Gson();
+                            registrationResponse = g.fromJson(response.errorBody().charStream(), RegistrationResponse.class);
+
+                        }else {
+                            registrationResponse = response.body();
+                        }
+
                         if (!registrationResponse.result) {
                             showError(registrationResponse.error);
                         } else {
