@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f23b120-ee92-4318-b275-e8d39b87099b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Seller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../18/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../18/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/artifacts/HWTail_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/HWTail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/tail.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/artifacts/HWTail_jar/HWTail.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/META-INF/HWTail.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/out/production/HWBlackFriday/com/company/Buyer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/out/production/HWBlackFriday/com/company/Buyer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/out/production/HWBlackFriday/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/out/production/HWBlackFriday/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Buyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Shop.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HomeWorks/HWBlackFriday" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -101,5 +83,17 @@
       <screen x="0" y="0" width="1366" height="740" />
     </state>
     <state x="538" y="263" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.740@0.0.1366.740" timestamp="1583781376466" />
+    <state x="467" y="129" key="FileChooserDialogImpl" timestamp="1584166015977">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="467" y="129" key="FileChooserDialogImpl/0.0.1366.740@0.0.1366.740" timestamp="1584166015977" />
+    <state x="394" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1584165895011">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="394" y="199" key="com.intellij.ide.util.TipDialog/0.0.1366.740@0.0.1366.740" timestamp="1584165895011" />
+    <state x="112" y="0" key="new project wizard" timestamp="1584166018275">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="112" y="0" key="new project wizard/0.0.1366.740@0.0.1366.740" timestamp="1584166018275" />
   </component>
 </project>
