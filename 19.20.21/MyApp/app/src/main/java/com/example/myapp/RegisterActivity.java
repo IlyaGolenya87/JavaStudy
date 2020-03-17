@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.myapp.api.APIBuilder;
 import com.example.myapp.api.ApiService;
 import com.example.myapp.model.LoginRequest;
 import com.example.myapp.model.LoginResponse;
@@ -92,7 +93,28 @@ public class RegisterActivity extends AppCompatActivity {
         registrationRequest.name = name;
         registrationRequest.password = password;
 
-        ApiService.getInstance()
+        APIBuilder <RegistrationRequest, RegistrationResponse> builder = new APIBuilder<>();
+
+        builder.execute("registration", registrationRequest, RegistrationResponse.class, new APIBuilder.onCallback <RegistrationResponse>() {
+            @Override
+            public void onResponce(RegistrationResponse resp) {
+                if (!resp.result){
+                    showError(resp.error);
+
+                } else {
+                    showConfirmActivity();
+                }
+
+            }
+
+            @Override
+            public void onError(Exception e) {
+                showError(e.getMessage());
+
+            }
+        });
+
+        /*ApiService.getInstance()
                 .getApi()
                 .registration(registrationRequest)
                 .enqueue(new Callback<RegistrationResponse>() {
@@ -119,7 +141,7 @@ public class RegisterActivity extends AppCompatActivity {
                         showError(t.getMessage());
 
                     }
-                });
+                });*/
     }
 
     public void showConfirmActivity() {

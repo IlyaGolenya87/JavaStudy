@@ -1,15 +1,11 @@
 package com.example.myapp.api;
 
-
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Method;
-import java.lang.reflect.Type;
 
 import retrofit2.Call;
 import retrofit2.Callback;
-import retrofit2.Response;
 
 public class APIBuilder<Request, Response> {
 
@@ -20,18 +16,17 @@ public class APIBuilder<Request, Response> {
     }
 
 
-    public void execute(String call, Request req, final onCallback callback) {
+    public void execute(String call, Request req, final Class<Response> respT, final onCallback callback) {
         MyFamily api = ApiService.getInstance().getApi();
 
         //Рефлексия
-
         // Получаем метод интерфейса MyFamily по его названию
         Method method = null;
         try {
             method = api.getClass().getMethod(call, req.getClass());
 
 
-            // Выдываем полученный метод
+            // Вызываем полученный метод
 
             Call<Response> request = (Call<Response>) method.invoke(api, req);
 
@@ -42,14 +37,11 @@ public class APIBuilder<Request, Response> {
                     Response res;
                     if (!response.isSuccessful()) {
                         Gson g = new Gson();
-                        Type responseType = new TypeToken<Response>() {
-                        }.getType();
-                        res = g.fromJson(response.errorBody().charStream(), responseType);
+                        res = g.fromJson(response.errorBody().charStream(), respT);
                     } else {
                         res = response.body();
                     }
-
-
+                    callback.onResponce(res);
                 }
 
                 @Override

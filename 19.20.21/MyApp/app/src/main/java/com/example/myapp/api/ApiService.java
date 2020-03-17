@@ -17,7 +17,7 @@ public class ApiService {       //Класс будет предназначат
             instance = new ApiService();
             //Паттерн FabricBuilder (Фабричный конструктор)
             instance.mRetrofit = new Retrofit.Builder()
-                    .baseUrl("https://212f349f.ngrok.io")       //основной адрес сервера
+                    .baseUrl("https://48da1b80.ngrok.io")       //основной адрес сервера
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
 

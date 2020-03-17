@@ -10,6 +10,7 @@ import android.widget.EditText;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapp.api.APIBuilder;
 import com.example.myapp.api.ApiService;
 import com.example.myapp.model.ConfirmRequest;
 import com.example.myapp.model.ConfirmResponse;
@@ -63,6 +64,25 @@ public class ConfirmActivity extends AppCompatActivity {
         //Запрос на сервер
         final ConfirmRequest confirmRequest = new ConfirmRequest();
         confirmRequest.code = code;
+
+        APIBuilder <ConfirmRequest, ConfirmResponse> builder = new APIBuilder<>();
+        builder.execute("confirm", confirmRequest, ConfirmResponse.class, new APIBuilder.onCallback <ConfirmResponse>() {
+            @Override
+            public void onResponce(ConfirmResponse resp ) {
+                if (!resp.result){
+                    showError(resp.error);
+
+                } else {
+                    showMenuActivity();
+                }
+
+            }
+
+            @Override
+            public void onError(Exception e) {
+                showError(e.getMessage());
+            }
+        });
 
 
         ApiService.getInstance()

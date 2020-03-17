@@ -1,7 +1,5 @@
 package com.example.myapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -12,16 +10,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
+import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapp.api.APIBuilder;
-import com.example.myapp.api.ApiService;
 import com.example.myapp.model.LoginRequest;
 import com.example.myapp.model.LoginResponse;
-import com.google.gson.Gson;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Проверяем, выполнен ли вход через кэш, чтобы не вводить каждый раз логи или пароль
+
+        /*SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        if (preferences.contains("API_TOKEN")){
+            showMenuActivity();
+            return;
+        }*/
 
         final EditText login = findViewById(R.id.login); //    вытаскиваем нужное текстовое поле по id
         final EditText password = findViewById(R.id.password);
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
         APIBuilder<LoginRequest, LoginResponse> builder = new APIBuilder<>();
 
-        builder.execute("login", loginRequest, new APIBuilder.onCallback<LoginResponse>() {
+        builder.execute("login", loginRequest, LoginResponse.class, new APIBuilder.onCallback<LoginResponse>() {
             @Override
             public void onResponce(LoginResponse loginResponse) {
                 if (!loginResponse.result) {
