@@ -5,6 +5,8 @@ import android.content.DialogInterface;
 
 import androidx.appcompat.app.AlertDialog;
 
+import com.example.myapp.R;
+
 public class Dialog {
 
      public static void showErrorDialog (Context ctx, String error) {
@@ -32,6 +34,14 @@ public class Dialog {
             }      //если оставить метод пустым, диалог просто исчезнет при нажатии кнопки
         });
         //alert.setIcon() //метод позволяет задать иконку для диалога
+        alert.create().show();
+
+    }
+
+    public static void showCalendarDialog (Context ctx) {
+        AlertDialog.Builder alert = new AlertDialog.Builder(ctx);
+        alert.setView(R.layout.calendar_layot);     //задаем внешний вид в виде календаря
+        alert.setCancelable(true);      //задаем возможность скрыть диалог, нажатием на пустой экран
         alert.create().show();
 
     }

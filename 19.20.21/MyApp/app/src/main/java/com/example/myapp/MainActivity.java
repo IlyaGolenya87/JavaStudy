@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
 
         //Проверяем, выполнен ли вход через кэш, чтобы не вводить каждый раз логи или пароль
 
-        /*SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
         if (preferences.contains("API_TOKEN")){
             showMenuActivity();
             return;
-        }*/
+        }
 
         final EditText login = findViewById(R.id.login); //    вытаскиваем нужное текстовое поле по id
         final EditText password = findViewById(R.id.password);
