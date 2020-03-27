@@ -1,4 +1,6 @@
 package com.example.myapp.api;
+import com.example.myapp.model.AddFinanceRequest;
+import com.example.myapp.model.AddFinanceResponse;
 import com.example.myapp.model.ConfirmRequest;
 import com.example.myapp.model.ConfirmResponse;
 import com.example.myapp.model.FinanceResponse;
@@ -12,6 +14,7 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Query;
 
 public interface MyFamily {     //В интерфейсе прописываются все конечные точки, доступные на сервере
@@ -30,6 +33,9 @@ public interface MyFamily {     //В интерфейсе прописывают
 
     @GET ("/finance")   //get-запрос на сервер
     Call <FinanceResponse> getfinance (@Query("startAt") String start, @Query("endAt") String end);     //дополнительные параметры в запросе GET передаются в Querry
+
+    @PUT("/finance")     //тип запроса, в скобках указывается дописка к baseURL
+    Call <AddFinanceResponse> addFinance (@Body AddFinanceRequest request);
     //Query - часть адреса, расположенная после знака "?"
     //параметры задаются в виде "ключ = значение"
     //между собой параметры разделяются знаком "&"
