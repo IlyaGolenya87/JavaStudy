@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Main {
 
@@ -29,32 +30,29 @@ public class Main {
 
         /////////////////////////////////
 
-        String s = "aakdhflahsfsdpifvnj";
-        String[] arr = s.split("");
-
-        ArrayList <String> string = new ArrayList<>();
-        for (int i = 0; i < arr.length; i++) {
-            string.add(s.split("")[i]);
-        }
-
-        for (int i = 0; i < string.size(); i++) {
-            int count = 0;
-            String letter = string.get(i);
-
-            for (int j = 1; j < string.size(); j++) {
-
-                if (string.get(i).equals(string.get(j))) {
+        String s = "мамамылараму";
+        char [] string = s.toCharArray();
+        ArrayList<Character> duplicates = new ArrayList<>();
+        int count = 0;
+        for (int i = 0; i < string.length; i++) {
+            char letter = string[i];
+            if (duplicates.contains(string[i])){
+                continue;
+            }
+            for (int j = 0; j < string.length; j++) {
+                if (string[i] == string[j]) {
+                    duplicates.add(string[i]);
                     count++;
-                    string.remove(j);
-                                        
                 }
             }
 
-            System.out.printf("Буква %s встречается %d раза", letter, count);
-            System.out.println("");
+            if (count == 0) {
+                System.out.printf("Буква %s встречается 1 раз", letter);
+            } else {
+                System.out.printf("Буква %s встречается %s раз", letter, count);
+            }
             count = 0;
-
-
+            System.out.println("");
         }
 
 
