@@ -1,7 +1,5 @@
 package com.company;
-
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class Main {
 
@@ -15,22 +13,26 @@ public class Main {
 
 
         USD usd = new USD();
+        BYN byn = new BYN();
+        RUB rub = new RUB();
+        EUR eur = new EUR();
 
         usd.setValue(35.3f);
-
-        BYN byn = new BYN();
-
+        rub.setValue(1000f);
         usd.convertTo(byn);
+        rub.convertTo(eur);
 
         System.out.println(byn);
+        System.out.println(eur);
 
         byn.convertTo(usd);
 
         System.out.println(usd);
 
         /////////////////////////////////
+        //Подсчет количества повторяющихся символов в строке
 
-        String s = "мамамылараму";
+        String s = "Это какая-то жопная жопа";
         char [] string = s.toCharArray();
         ArrayList<Character> duplicates = new ArrayList<>();
         int count = 0;
@@ -45,7 +47,6 @@ public class Main {
                     count++;
                 }
             }
-
             if (count == 0) {
                 System.out.printf("Буква %s встречается 1 раз", letter);
             } else {

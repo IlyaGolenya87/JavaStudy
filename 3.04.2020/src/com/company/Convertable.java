@@ -4,5 +4,4 @@ public interface Convertable <T extends Currency> {     //через джене�
 
     void convertTo(T currency);
 
-
 }

@@ -29,6 +29,12 @@ public abstract class Currency implements Convertable {
         exchangeTable = new HashMap<>();
         exchangeTable.put("USD_BYN", 2.58f);
         exchangeTable.put("BYN_USD", 0.388f);
+        exchangeTable.put("USD_EUR", 1.04f);
+        exchangeTable.put("EUR_USD", 0.96f);
+        exchangeTable.put("USD_RUB", 74.64f);
+        exchangeTable.put("RUB_USD", 0.013f);
+        exchangeTable.put("RUB_EUR", 0.011f);
+        exchangeTable.put("EUR_RUB", 79.95f);
         return exchangeTable;
     }
 
