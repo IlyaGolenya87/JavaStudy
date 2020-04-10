@@ -7,27 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47996d1d-948c-4225-909a-e79fb32b3d72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Seller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/com/company/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/17/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/17/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../18/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../18/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/artifacts/HWTail_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/HWTail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/tail.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/artifacts/HWTail_jar/HWTail.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/META-INF/HWTail.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.04.2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3.04.2020/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.04.2020/out/production/3.04.2020/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.04.2020/out/production/3.04.2020/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.04.2020/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.04.2020/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />

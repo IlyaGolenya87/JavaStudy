@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    width: 800px;
+    margin: 32px auto;
+}
+
+.jumbotron {
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+}
+
+input.answer {
+    text-transform: uppercase;
+}

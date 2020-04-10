@@ -68,6 +68,7 @@ public class Main {
         //Чтение содержимого текстового файла
         try {
             FileReader fr = new FileReader(ff); //для чтения файла применяется класс FileReader
+
             int c = fr.read(); //когда метод завершается, он возвращает значение -1, что позволяет понять когда файл прочитан
             while (c != -1){
                 System.out.print((char) c);

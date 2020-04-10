@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ответы на задачи</title>
+        <meta charset="utf-8" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script src="assets/js/send.js"></script>
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <div class="panel panel-default">
+            <div class="panel-heading">Бланк ответов</div>
+            <div class="panel-body">
+                <p>
+                    Внесите свои ответы на форму внизу.<br/>
+                    Нажмите кнопку "Отправить" после заполнения полей.
+                    Если вы не знаете ответ на поставленную задачу, оставьте это поле пустым. 
+                </p>
+                <div class="input-group">
+                    <span
+                        class="input-group-addon"
+                        id="basic-addon">
+                        ФИО:
+                    </span>
+                    <input
+                        type="text"
+                        required
+                        id="name"
+                        class="form-control"
+                        placeholder="Фамилия Имя Отчество"
+                        aria-describedby="basic-addon" />
+                </div>
+                <br />
+                <label for="a1">Ответ на задачу №1</label>
+                <div class="input-group">
+                    <span
+                        class="input-group-addon"
+                        id="basic-addon1">
+                    Ответ
+                    </span>
+                    <input
+                        type="text"
+                        maxlength="5"
+                        class="form-control answer"
+                        id="a1"
+                        aria-describedby="basic-addon1" />
+                </div>
+                <br />
+                <label for="a2">Ответ на задачу №2</label>
+                <div class="input-group">
+                    <span
+                        class="input-group-addon"
+                        id="basic-addon2">
+                    Ответ
+                    </span>
+                    <input
+                        type="text"
+                        maxlength="5"
+                        class="form-control answer"
+                        id="a2"
+                        aria-describedby="basic-addon2" />
+                </div>
+                <br />
+                <label for="a3">Ответ на задачу №3</label>
+                <div class="input-group">
+                    <span
+                        class="input-group-addon"
+                        id="basic-addon3">
+                    Ответ
+                    </span>
+                    <input
+                        type="text"
+                        maxlength="5"
+                        class="form-control answer"
+                        id="a3"
+                        aria-describedby="basic-addon3" />
+                </div>
+                <br />
+                <label for="a4">Ответ на задачу №4</label>
+                <div class="input-group">
+                    <span
+                        class="input-group-addon"
+                        id="basic-addon4">
+                    Ответ
+                    </span>
+                    <input
+                        type="text"
+                        maxlength="5"
+                        class="form-control answer"
+                        id="a4"
+                        aria-describedby="basic-addon4" />
+                </div>
+                <br />
+                <label for="a5">Ответ на задачу №5</label>
+                <div class="input-group">
+                    <span
+                        class="input-group-addon"
+                        id="basic-addon5">
+                    Ответ
+                    </span>
+                    <input
+                        type="text"
+                        maxlength="5"
+                        class="form-control answer"
+                        id="a5"
+                        aria-describedby="basic-addon5" />
+                </div>
+                <br />
+                <a
+                    type="button"
+                    onclick="send()"
+                    href="#"
+                    class="btn btn-default">
+                    Отправить
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

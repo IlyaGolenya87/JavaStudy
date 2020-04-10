@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b3b986e-e92f-4dad-98a6-6669b48df7e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWBlackFriday/src/com/company/Seller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/com/company/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/src/com/company/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Users.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/16/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/16/com/company/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/16/com/company/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.bin" beforeDir="false" afterPath="$PROJECT_DIR$/user.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../18/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../18/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/13/HWToDoList/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/artifacts/HWTail_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/HWTail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/tail.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/artifacts/HWTail_jar/HWTail.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/META-INF/HWTail.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/out/production/HWTail/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWorks/HWTail/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.04.2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3.04.2020/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.04.2020/out/production/3.04.2020/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.04.2020/out/production/3.04.2020/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3.04.2020/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.04.2020/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +53,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -96,5 +91,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="531" y="257" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.738@0.0.1366.738" timestamp="1583173625490" />
+    <state x="779" y="135" key="FileChooserDialogImpl" timestamp="1586540484128">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="779" y="135" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1586540484128" />
+    <state width="1316" height="177" key="GridCell.Tab.0.bottom" timestamp="1586549563086">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1316" height="177" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1586549563086" />
+    <state width="1316" height="177" key="GridCell.Tab.0.center" timestamp="1586549563086">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1316" height="177" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1586549563086" />
+    <state width="1316" height="177" key="GridCell.Tab.0.left" timestamp="1586549563086">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1316" height="177" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1586549563086" />
+    <state width="1316" height="177" key="GridCell.Tab.0.right" timestamp="1586549563086">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1316" height="177" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1586549563086" />
   </component>
 </project>
