@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63efdca0-251e-4bcd-8559-f322e62e323c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../17/out/production/17/com/company/Main.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,10 +40,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Practice/module 03" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
